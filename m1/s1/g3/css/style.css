@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+.main{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.main li{
+    margin-left: 0%;
+    margin-bottom: 20px;
+}
+  
+h3,h2{
+    margin-right: 25%;
+}
+.header{
+    text-align: center;
+    
+}
+.footer{
+    margin-right: 25%;
+}
+#metodo{
+    margin-left: 25%;
+}
+#hr1{
+    color:aqua;
+}
+#p1{
+    color: rgba(189, 208, 208, 0.899);
+    margin-left: 50%;
+}
+#nomerosso{
+    color: red;
+}
+#sottolineato{
+    text-decoration: underline;
+}
+#hrazzurro{
+    color: rgb(45, 216, 216);
+}
+
