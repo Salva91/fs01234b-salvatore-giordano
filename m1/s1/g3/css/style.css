@@ -18,6 +18,17 @@ h3,h2{
 .header{
     text-align: center;
     
+    
+    
+}
+#divparagrafo{
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(229, 185, 105,0.4);
+    border-top: 2px solid orange;
+    text-align: center;
+    margin-top: 15px;
+    
 }
 .footer{
     margin-right: 25%;
@@ -42,10 +53,4 @@ h3,h2{
     color: rgb(45, 216, 216);
 }
 
-#margine{
-        border: 2px solid orange; 
-        padding: 10px; 
-        display: inline-block; /* ho capito che senza questo il bordo riempie tutto lo spazio */
 
-      
-}
