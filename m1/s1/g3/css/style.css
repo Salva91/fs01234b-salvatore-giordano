@@ -42,3 +42,10 @@ h3,h2{
     color: rgb(45, 216, 216);
 }
 
+#margine{
+        border: 2px solid orange; 
+        padding: 10px; 
+        display: inline-block; /* ho capito che senza questo il bordo riempie tutto lo spazio */
+
+      
+}
