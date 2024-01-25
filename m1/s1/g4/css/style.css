@@ -6,8 +6,12 @@
     background-color: rgb(31, 149, 173);
     text-align: center;
     width: 470px;
-    border:0;
 
+    
+
+}
+#titolo{
+    font-size: 33px;
 }
 .class ul{
     list-style: none;
@@ -15,4 +19,28 @@
 }
 #pbianco{
     color:#ffffff;
+}
+#marginehome{
+    background-color: white;
+    width: 470px;
+    text-align: center;
+}
+#coloreadress{
+    opacity: 0.3;
+    
+}
+#divbianco{
+    background-color: rgb(188, 186, 186);
+    display: inline-block;
+    border-radius: 5px;
+}
+#divbianco2{
+    background-color: rgb(188, 186, 186);
+    display: inline-block;
+    border-radius: 5px;
+}
+#divbianco3{
+    background-color: rgb(188, 186, 186);
+    display:inline-block;
+    border-radius: 5px;
 }
