@@ -4,16 +4,26 @@
 .main{
     margin-left: 25%;
     margin-right: 25%;
+    padding-top: 40px;
+    text-align: center;
     
 }
 
-.main li{
-    margin-left: 0%;
-    margin-bottom: 20px;
+.main li,p{
+    text-align: left;
+
 }
+.main li{
+    margin-top: 20px;
+}
+.h3lista{
+    text-align: left;
+}
+
   
-h3,h2{
-    margin-right: 25%;
+#idparagrafo{
+    text-align: center;
+    
 }
 .header{
     text-align: center;
@@ -51,6 +61,12 @@ h3,h2{
 }
 #hrazzurro{
     color: rgb(45, 216, 216);
+    width: 100%;
+}
+hr{
+    width: 100%;
+    color: rgb(45, 216, 216);
+    
 }
 
 
