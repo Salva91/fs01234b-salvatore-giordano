@@ -1,0 +1,18 @@
+#px{
+    margin:5%;
+    background-image: url(../img/sfondo.png);
+}
+#logo{
+    background-color: rgb(31, 149, 173);
+    text-align: center;
+    width: 470px;
+    border:0;
+
+}
+.class ul{
+    list-style: none;
+    color: #fffefe;
+}
+#pbianco{
+    color:#ffffff;
+}
