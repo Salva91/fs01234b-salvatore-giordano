@@ -49,8 +49,8 @@ let x =12;
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
-
-/* myName = Giordano*/
+   // myName =giordano;
+  //const myName = Giordano;
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
