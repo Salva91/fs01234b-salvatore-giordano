@@ -231,7 +231,7 @@ console.log(gender2);
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "charactersNames" le stringhe corrispondenti a personaggi con lo stesso nome.
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
 */
-
+console.log(charactersNames);
 for (let i = 0; i < femaleCharacters.length; i++) {
   for (let j = 0; j < charactersNames.length; j++) {  
     if (femaleCharacters[i].name === charactersNames[j].name) {
@@ -239,8 +239,11 @@ for (let i = 0; i < femaleCharacters.length; i++) {
       
       j--;
     }
+    console.log(charactersNames[j])
   }
-}
+  
+}  //ho provato ad usare lo splice ma su internet non ci ho capito molto
+
 
 
 
