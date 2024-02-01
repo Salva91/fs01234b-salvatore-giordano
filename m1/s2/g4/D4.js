@@ -36,7 +36,7 @@ console.log(crazySum(2,3));
 */
 
 function boundary (n){
-    if (n >= 20 && n <=100 || n === 400){
+    if ((n >= 20 && n <=100) || n === 400){
             return true;
     }else{
         return false;
