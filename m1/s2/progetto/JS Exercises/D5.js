@@ -23,11 +23,13 @@ for (let i = 0; i < pets.length; i++){
 */
 {
 const pets = ['dog', 'cat', 'hamster', 'redfish']
+pets.sort();
 for (let i = 0; i <pets.length; i++){
-  pets.sort();
-
+  
+  console.log(pets[i]);
 }
-console.log(pets);
+
+
 }
 
 
