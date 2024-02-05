@@ -199,8 +199,14 @@ makeItClickable();
       */
 
       const revealFooterLink = function () {
-        
+        let footer = document.querySelector("footer");
+        footer.addEventListener("click", function(){
+          let url = footer.querySelector("a").href //questo è molto utile
+          alert(url)
+
+        })
       }
+      revealFooterLink()
 
       /* ESERCIZIO 11
        Crea una funzione che crei una tabella nell'elemento con id "tableArea". 
