@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+
+}
+div{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(192, 56, 56);
+    
+}
+button{
+    border-radius: 10px;
+}
