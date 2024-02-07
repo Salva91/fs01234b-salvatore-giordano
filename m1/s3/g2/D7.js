@@ -240,7 +240,8 @@ function filmPiuVecchio() {
 }
 filmPiuVecchio();
 
-console.log(filmPiuVecchio()); 
+let a = filmPiuVecchio();
+console.log(a);
 
 
 /* ESERCIZIO 10
