@@ -11,6 +11,7 @@ let creaBottone = document.querySelector('.conteiner-bottone');
 let bottone = document.createElement('button');
 bottone.innerText = 'premi qui';
 creaBottone.appendChild(bottone);
+bottone.style.backgroundColor = '#63925A'
 
 let risultatoElement = document.createElement('p');
 creaBottone.appendChild(risultatoElement);

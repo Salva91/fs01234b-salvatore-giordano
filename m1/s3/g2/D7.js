@@ -107,6 +107,17 @@ for ( let i = 0; i <100; i++){
 }
 valDispari();
 
+function dispariForEach (){
+  let numeri =  [];
+  
+  numeri.forEach(n){
+    if(n % 2 != 0 ){
+      numeri = numeri.push(n);
+    }
+    return numeri;
+  }
+}
+
 
 /* Questo array di film verrà usato negli esercizi a seguire. Non modificarlo e scorri oltre per riprendere gli esercizi :) */
 const movies = [

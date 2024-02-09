@@ -8,7 +8,7 @@
     justify-content: space-around;
     margin: 0 auto;
     width: 500px;
-    background-color:rebeccapurple;
+    background-color:#F1E6CB;
     padding: 5px 10px 30px 10px;
     box-sizing: border-box;
     font-size: 14px;
@@ -42,9 +42,11 @@
     align-items: center; 
     margin-top: 10px;
     padding: 0 20px; 
+    
 
 }
 
 h3 {
     text-align: center;
+    
 }
