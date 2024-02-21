@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../Desktop/assets-2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "g3"
+	}
+}
