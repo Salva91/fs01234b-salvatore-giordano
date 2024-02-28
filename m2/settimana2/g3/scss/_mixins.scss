@@ -1,5 +1,14 @@
 @mixin title-big{
     color:#2f075d;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: 50px;
 }
+
+@mixin bottoni{
+    display: inline-block;
+    border-radius: 5px;
+    padding:$padding-default;
+    margin:3px;
+
+}
+

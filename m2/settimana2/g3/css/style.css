@@ -52,10 +52,50 @@ table {
   border-spacing: 0;
 }
 
-h1 {
+.showcase-content h1 {
   color: #2f075d;
   font-family: "Times New Roman", Times, serif;
-  font-size: large;
+  font-size: 50px;
+}
+
+.hero {
+  background-color: #640fc5;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav li {
+  padding: 15px;
+}
+nav a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 3px;
+}
+
+.btn-primary {
+  background-color: #0e6cff;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+}
+
+.btn-tertiary {
+  background-color: #4caf50;
 }
 
 /*# sourceMappingURL=style.css.map */

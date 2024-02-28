@@ -5,6 +5,41 @@
 @import "mixins";
 @import "animazioni";
 
-h1 {
+.showcase-content h1 {
     @include title-big
+}
+
+.hero{
+    background-color: map-get($colori,bg_hero)
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+    display: flex;
+    list-style-type: none;
+    }
+    li {
+    padding: 15px;
+    }
+    a {
+    color: $light-color;
+    text-decoration: none;
+    }
+}
+.btn{
+    @include bottoni
+}
+.btn-primary{
+    background-color: map-get($colori,bottone1)
+}
+.btn-secondary{
+    background-color: map-get($colori,bottone2)
+}
+.btn-tertiary{
+    background-color: map-get($colori,bottone3)
 }
