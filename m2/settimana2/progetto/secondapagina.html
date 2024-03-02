@@ -1,73 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Profile</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="/Netflix-assets/assets/netflix_logo.png" alt="Bootstrap" width="120px" >
-          </a>
-        </div>
-      </nav>
-      <div class="container">
-        <div class="row">
-          <h1>Edit Profile</h1>
-          <div class="col">
-            <img
-              src="./Netflix-assets/assets/kids_icon.png"
-              height="150"
-              width="150"
-            />
-          </div>
-          <div class="col">
-            <div class="row d-flex flex-column">
-              <div class="col">
-                <form class="form-inline">
-                  <div class="form-group mx-sm-3 mb-2">
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="inputPassword2"
-                      placeholder="Strive Student"
-                    />
-                  </div>
-                </form>
-              </div>
-  
-              <div class="col"><p>Language</p></div>
-              <div class="col">
-                <div class="dropdown">
-                  <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    id="dropdownMenu2"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-  English
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Italian</button>
-                    <button class="dropdown-item" type="button">Spanish</button>
-                    <button class="dropdown-item" type="button">Deutsch</button>
-                  </div>
-                </div>
-              </div>
-              <div class="col"><p>Maturity Settings:</p></div>
-              <div class="col"><button>ALL MATURITY RATINGS</button></div>
-              <div class="col">
-                <p>Show titles of all maturity ratings for this profile</p>
-              </div>
-              <div class="col"><button>EDIT</button></div>
-              <div class="col"><p>Autoplay controls</p></div>
 
-      <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix - Profile Settings</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.scss">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg py-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./Netflix-assets/assets/netflix_logo.png" width="120px" alt="netflix_logo" />
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container px-sm-5 mt-5 mb-5">
+                <div class="custom-wrap px-lg-5 mx-lg-5">
+                    <div class="custom-row">
+                        <h1>Adjust Profile</h1>
+                    </div>
+                    <div class="custom-row">
+                        <div class="col-12 col-sm-3 py-4">
+                            <img src="./Netflix-assets/assets/avatar.png" class="img-fluid" />
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <div class="custom-row custom-row-gap-3 py-3">
+                                <div class="col-10">
+                                    <input type="text" placeholder="Username" class="form-control fs-4 bg-custom-red text-white rounded-0 border-0" />
+                                </div>
+                                <div class="col-4">
+                                    <label for="language" class="fs-4 ">Language:</label>
+                                    <select name="language" class="form-select  border rounded-0 " >
+                                        <option selected>Italiano</option>
+                                        <option value="1">Svenska</option>
+                                        <option value="2">Norska</option>
+                                        <option value="3">flaanderen</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="custom-row custom-row-gap-3 py-4">
+                                <div class="col-6">
+                                    <p class="fs-4">Content Settings:</p>
+                                    <div class="bg-custom-red text-center bg-danger p-2">
+                                        ALL CONTENT RATINGS
+                                    </div>
+                                </div>
+                                <p class="m-0">
+                                    Show titles of
+                                    <b>all content ratings</b> for this
+                                    profile.
+                                </p>
+                                <div class="col-4" class="button-edit">
+                                    <button type="button" class="btn btn-danger rounded-0 px-4">
+                                        EDIT
+                                    </button>
+                                </div>
+                            </div>
+                            <hr class="m-0" />
+                            <div class="custom-row custom-row-gap-3 py-4">
+                                <div class="col-12">
+                                    <p class="fs-4 mb-0">
+                                        Autoplay settings
+                                    </p>
+                                    <div class="form-check">
+                                        <input class="form-check-input rounded-0" type="checkbox" value="" id="defaultCheck1" />
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            <small>Autoplay next episode in a
+                                                series on all
+                                                devices.</small>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input rounded-0" type="checkbox" value="" id="defaultCheck2" />
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            <small>Autoplay previews while
+                                                browsing on all
+                                                devices.</small>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="d-flex gap-4 flex-wrap flex-sm-nowrap">
+                        <button type="button" class="btn btn-outline-danger rounded-0 px-4 fs-5">
+                            SAVE
+                        </button>
+                        <button type="button" class="btn btn-outline-danger rounded-0 px-4 fs-5">
+                            CANCEL
+                        </button>
+                        <button type="button" class="btn btn-outline-danger rounded-0 px-4 fs-5">
+                            DELETE PROFILE
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

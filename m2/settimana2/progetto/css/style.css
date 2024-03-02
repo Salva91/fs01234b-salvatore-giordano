@@ -11932,4 +11932,100 @@ footer button {
   padding-top: 50px;
 }
 
+.containerimmagini1 img {
+  transition: transform 0.3s ease-in-out;
+}
+.containerimmagini1 img:hover {
+  transform: scale(1.1);
+}
+
+.containerimmagini2 img {
+  transition: transform 0.3s ease-in-out;
+}
+.containerimmagini2 img:hover {
+  transform: scale(1.1);
+}
+
+.containerimmagini3 img {
+  transition: transform 0.3s ease-in-out;
+}
+.containerimmagini3 img:hover {
+  transform: scale(1.1);
+}
+
+main section .custom-wrap {
+  padding: 1.25rem;
+  background-color: black;
+}
+main section .custom-wrap .display-4 {
+  margin-bottom: 1.1rem;
+}
+main section .custom-wrap .col-12 img {
+  max-width: 100%;
+}
+main section .custom-wrap .col-12 input.form-control.fs-4 {
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 0;
+}
+main section .custom-wrap .col-12 select.form-select {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+}
+main section .custom-wrap .bg-info {
+  background-color: red;
+  color: white;
+}
+main section .custom-wrap .btn-outline-info {
+  color: red;
+  border-color: red;
+}
+main section .custom-wrap .form-check input.form-check-input {
+  border-radius: 0;
+}
+main section .custom-wrap .form-check label.form-check-label small, main section .custom-wrap .form-check label.form-check-label .small {
+  font-size: 0.875rem;
+}
+main section .btn.btn-outline-info {
+  color: red;
+  border-color: red;
+  border-radius: 0;
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+}
+main section .btn.btn-outline-info.fs-5 {
+  font-size: 1rem;
+}
+
+.bg-info-text-red {
+  background-color: red;
+  color: white;
+}
+
+input.form-control.fs-4 {
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 0;
+}
+
+.container .custom-wrap .custom-row h1, .container .custom-wrap .custom-row .h1 {
+  color: white;
+  font-size: 3.2rem;
+}
+
+.col-4 label {
+  color: white;
+}
+
+.col-4 select {
+  border-color: red;
+}
+
+.custom-row p {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

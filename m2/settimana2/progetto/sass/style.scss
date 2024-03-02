@@ -88,3 +88,136 @@ footer {
     }
     
 }
+.containerimmagini1{
+    img{
+        @include effettohover
+    }
+}
+
+.containerimmagini2{
+    img{
+        @include effettohover
+    }
+}
+
+.containerimmagini3{
+    img{
+        @include effettohover
+    }
+}
+
+//seconda pagina
+
+
+main {
+    section {
+      .custom-wrap {
+        padding: 1.25rem;
+        background-color:black;
+        .display-4 {
+          margin-bottom: 1.1rem;
+        }
+
+        .col-12 {
+          img {
+            max-width: 100%;
+          }
+  
+          input {
+            &.form-control {
+              &.fs-4 {
+                background-color:red;
+                color:white;
+                border: 0;
+                @include border-radius(0);
+              }
+            }
+          }
+  
+          select {
+            &.form-select {
+              background-color:black;
+              color:white;
+              @include border-radius(0);
+            }
+          }
+        }
+  
+        .bg-info {
+          background-color: red;
+          color:white;
+        }
+  
+        .btn-outline-info {
+          color:red;
+          border-color:red;
+        }
+  
+        .form-check {
+          input {
+            &.form-check-input {
+              @include border-radius(0);
+            }
+          }
+  
+          label {
+            &.form-check-label {
+              small {
+                font-size: 0.875rem;
+              }
+            }
+          }
+        }
+      }
+      .btn {
+        &.btn-outline-info {
+          color:red;
+          border-color: red;
+          @include border-radius(0);
+          padding: 0.5rem 2rem;
+          font-size: 1.25rem;
+          &.fs-5 {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .bg-info-text-red {
+    background-color: red;
+    color: white;
+  }
+
+  input.form-control.fs-4 {
+    background-color: red;
+    color: white;
+    border: 0;
+    @include border-radius(0);
+  }
+
+
+  .container{
+    .custom-wrap{
+        .custom-row h1{
+            color:white;
+            font-size: 3.2rem;
+        }
+    }
+  }
+
+  .col-4 label{
+    color:white; 
+  }
+
+  .col-4 select{
+    border-color: red;
+  }
+
+  .custom-row p {
+    color:white;
+  }
+
+  .button-edit{
+    
+  }
