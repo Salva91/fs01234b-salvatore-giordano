@@ -21,5 +21,4 @@ let persona1 = new User("Michele", "Tedesco", 33, "Napoli");
 let persona2 = new User("Salvatore", "Giordano", 32, "Napoli");
 
 
-console.log((new User()).confrontoEta(persona1, persona2));
-
+console.log(persona1.confrontoEta(persona1, persona2));
