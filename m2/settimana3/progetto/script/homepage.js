@@ -1,43 +1,43 @@
-const salva = document.querySelector('#salva');
-
-salva.addEventListener('click', function(e) {
-    e.preventDefault();
-
-    function createProduct() {
-        const productName = document.getElementById('productName').value;
-        const productDescription = document.getElementById('productDescription').value;
-        const productBrand = document.getElementById('productBrand').value;
-        const productPrice = parseFloat(document.getElementById('productPrice').value);
-        const productImage = document.getElementById('productImage').value;
-
-        const smartphone = {
-            "name": productName,
-            "description": productDescription,
-            "brand": productBrand,
-            "price": productPrice,
-            "image": productImage
-        };
-
-        // Adding console logs for debugging
-        console.log('Request URL:', 'https://striveschool-api.herokuapp.com/api/product/');
-        console.log('Request Data:', JSON.stringify(smartphone));
-
-        fetch('https://striveschool-api.herokuapp.com/api/product/', {
-            method: 'POST',
-            headers: {
-                "Authorization": "Bearer YOUR_ACCESS_TOKEN",
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(smartphone)
-        })
-        .then(res => res.json())
-        .then(res => {
-            location.href = 'read.html';
-        })
-        .catch(error => {
-            console.error('Fetch error:', error.message);
-        });
+fetch('https://striveschool-api.herokuapp.com/api/product/', {
+    headers: {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWVhZDc5ZTJkN2IxMTAwMTkwZTZkZDciLCJpYXQiOjE3MDk5MTIxNjIsImV4cCI6MTcxMTEyMTc2Mn0.4zjCm9bZ-6aYrwtTM2L1tWrPUlM9h4CXYNZJvRQFfYI"
     }
+})
+.then(res => {
+    console.log(res); 
+    return res.json();
+})
+    .then(telefoni => {
+        for (let telefono of telefoni) {
+            console.log(telefono);
+            let mobile = generaClone();
+    
+            let nome = mobile.querySelector('.nome');
+            let descrizione = mobile.querySelector('.descrizione');
+            let brand = mobile.querySelector('.brand');
+            let img = mobile.querySelector('.card-img-top');
+            let prezzo = mobile.querySelector('.prezzo');
+            let btnModifica = mobile.querySelector('.btnmodifica');
+            let btnScopri = mobile.querySelector('.btnscopri');
+    
+        
+            nome.innerText = telefono.name;
+            descrizione.innerText = telefono.description;
+            brand.innerText = telefono.brand;
+            prezzo.innerText = telefono.price;
+            img.src = "https://picsum.photos/200/300";
+            
+    
+            document.querySelector('#append').appendChild(mobile);
+        }
+    })
+    
+    
 
-    createProduct();
-});
+    
+
+function generaClone() {
+    let template = document.querySelector('#template-telefono');
+    let clone = template.content.cloneNode(true);
+    return clone;
+}
