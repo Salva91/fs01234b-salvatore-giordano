@@ -4,30 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Document</title>
+    <title>CRUD</title>
 </head>
 <body>
-        <div class="row" id="append">
-            
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">CRUD App</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="border-bottom py-2">Prodotti</h1>
+        <button class="btn btn-dark" id="creaprodotto">Crea prodotto</button>
+        <div class="row">
+            <template id="template">
+                <div class="my-2 mx-2 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img id="img" src="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 id="name" class="card-title"></h5>
+                            <p id="price" class="card-text"></p>
+                            <a href="#" class="btn btn-primary">Informazioni</a>
+                            <a href="pagina-modifica.html?id=${telefono._id}" id="edit" class="btn btn-warning">Modifica</a>
+                            <a href="#" id="delete" class="btn btn-danger" data-id="${telefono._id}">Elimina</a>
+                        </div>
+                    </div>
+                </div>
+            </template>
         </div>
     </div>
 
-    <template id="template-telefono">
-        <div class="col-6 mb-4">
-            <div class="card" style="width: 18rem;">
-                <img src="#" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title nome"></h5>
-                    <h4 class="card-text brand"></h4>
-                    <p class="card-text prezzo"></p>
-                    <p class="card-text descrizione"></p>
-                    <a href="#" class="btn btn-primary btnmodifica">Modifica</a>
-                    <a href="#" class="btn btn-success btnscopri">Scopri di più</a>
-                </div>
-            </div>
-        </div>
-    </template>
-    
-    <script src="script/homepage.js"></script>
+    <script src="./script/read.js"></script>
 </body>
 </html>
