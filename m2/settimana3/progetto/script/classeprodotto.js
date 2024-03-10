@@ -1,3 +1,4 @@
+export default Telefono;
 class Telefono {
     constructor(name, brand, price, imageUrl, description) {
         this.name = name;

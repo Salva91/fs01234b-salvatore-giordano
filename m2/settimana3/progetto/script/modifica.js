@@ -1,3 +1,4 @@
+import Telefono from "./classeprodotto";
 let url = new URLSearchParams(location.search);
 let id = url.get('id');
 
@@ -33,13 +34,7 @@ salva.addEventListener('click', () => {
     let imageUrl = document.querySelector('#url').value;
     let description = document.querySelector('#descrizione').value;
 
-    let telefono = {
-        name,
-        description,
-        brand,
-        imageUrl,
-        price
-    };
+    let telefono = new Telefono (name,brand,price,imageUrl,description);
 
     fetch(`https://striveschool-api.herokuapp.com/api/product/${id}`, {
         method: 'put',
