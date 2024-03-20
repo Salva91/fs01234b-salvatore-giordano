@@ -1,0 +1,19 @@
+<table class="table">
+
+  <tr>
+    <th>title</th>
+    <th>body</th>
+    <th>userId</th>
+    <th>tags</th>
+    <th>active</th>
+  </tr>
+
+  <tr *ngFor="let libro of booksArr; let id = index">
+    <td>{{id + 1}}</td>
+    <td>{{libro.title}}</td>
+    <td>{{libro.body}}</td>
+    <td>{{libro.userId}}</td>
+    <td>{{libro.tags}}</td>
+    <td>{{libro.active}}</td>
+
+  </tr>
