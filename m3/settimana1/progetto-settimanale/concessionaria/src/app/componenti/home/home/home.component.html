@@ -1,0 +1,19 @@
+<div class="card mt-5" *ngFor="let marchio of marchi" style="display: inline-block; margin-right: 10px;">
+  <div class="card-header">
+    <h3 class="card-title">{{ marchio }}</h3>
+  </div>
+  <div class="card-body">
+    <div *ngFor="let auto of autoPerMarchio[marchio]" class="d-inline-block" style="margin-right: 10px;">
+      <div class="card"
+           [ngClass]="{ 'bg-success': auto.available, 'bg-danger': !auto.available }"
+           style="width: 18rem;">
+        <img class="card-img-top" [src]="auto.modelImage" alt="{{ auto.model }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ auto.model }}</h5>
+          <p class="card-text">Year: {{ auto.year }}</p>
+          <p class="card-text">Price: {{ auto.price }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" [ngClass]="{ 'sticky-top': isSticky }">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="['/']"><img src="https://us.123rf.com/450wm/themoderncanvas/themoderncanvas2308/themoderncanvas230800014/211186763-auto-sportive-auto-logo-veicolo-a-motore-sagoma-emblema-supercar-concessionaria-icona-concessionario.jpg?ver=6" width="90px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" routerLink="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/fiat">Fiat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/ford">Ford</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/audi">Audi</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+</nav>

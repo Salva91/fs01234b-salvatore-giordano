@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <img src="/assets/loghi/fiat logo.png" alt="" width="160px">
+  <h2>Vetrina Auto Fiat</h2>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let auto of autoFiat">
+      <div class="card mb-3"
+           [ngClass]="{ 'bg-success': auto.available, 'bg-danger': !auto.available }">
+        <img class="card-img-top" [src]="auto.modelImage" alt="{{ auto.model }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ auto.model }}</h5>
+          <p class="card-text">Marca: {{ auto.brand }}</p>
+          <p class="card-text">Anno: {{ auto.year }}</p>
+          <p class="card-text">Prezzo: {{ auto.price }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
