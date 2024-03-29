@@ -1,0 +1,14 @@
+<div class="container my-3">
+  <ul class="list-group">
+    <ng-container *ngFor="let todo of todoList">
+      <li class="list-group-item d-flex justify-content-between align-items-center"
+          [ngClass]="{ 'completed': todo.completed, 'not-completed': !todo.completed }"
+          (click)="trueOfalse(todo)">
+        <input type="checkbox" [checked]="todo.completed" disabled>
+        <span>{{ todo.todo }}</span>
+
+        <span *ngIf="todo.userId">{{ todo.userId}}</span>
+      </li>
+    </ng-container>
+  </ul>
+</div>
