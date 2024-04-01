@@ -13,20 +13,23 @@ export class HometodoComponent {
   todoList: Todo[] = [];
   users: Users[] = [];
 
+
+
   constructor(private todoService: TodoServiceService, private userService: UsersServiceService) {}
-  ngOnInit() {
-    this.caricaTodo();
-  }
-
-  caricaTodo() {
+  ngOnInit(): void {
     this.todoList = this.todoService.ottieniTutto();
-
+    this.users = this.todoService.ottieniTuttoUsers();
   }
+
+  CondizioneID(todo: Todo): Users[] {
+    return this.users.filter(user => user.id === todo.userId);
+  }
+
+
 
 
   trueOfalse(todo: Todo): void {
     todo.completed = !todo.completed;
   }
-
 
 }

@@ -819,9 +819,7 @@ export class UsersServiceService {
     return this.utenti
   }
 
-  ottieniById(id: number) {
-    return this.utenti.find(u => u.id === id)
-  }
+
   ottieiUtentiNome(){
     return this.ottieniTuttiUtenti().filter(u => u.firstName)
   }

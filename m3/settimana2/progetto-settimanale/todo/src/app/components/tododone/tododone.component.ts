@@ -18,10 +18,10 @@ ngOnInit(){
 }
 
 mostraCompletati(){
-  this.todoList = this.todoService.ottieniNonCompletate()
+  this.todoList = this.todoService.ottieniCompletate()
 }
 trueOfalse(todo: Todo): void {
-  todo.completed = todo.completed;
+  todo.completed = !todo.completed;
 }
 
 }

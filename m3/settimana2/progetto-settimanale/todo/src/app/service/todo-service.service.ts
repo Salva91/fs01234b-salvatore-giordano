@@ -9,6 +9,9 @@ import { UsersServiceService } from './users-service.service';
   providedIn: 'root'
 })
 export class TodoServiceService {
+  nomeUtente(): Users[] {
+    throw new Error('Method not implemented.');
+  }
 
 
   todoList: Todo[] = [
@@ -926,14 +929,13 @@ export class TodoServiceService {
     return this.todoList.filter(todo => todo.completed)
 
   }
-  ottieniNonCompletate(): Todo[] {
-    return this.todoList.filter(todo => !todo.completed);
-  }
 
-  getTodoeName(){
-    this.usersSvr.ottieiUtentiNome()
+  ottieniTuttoUsers(){
+    return this.usersSvr.ottieniTuttiUtenti()
   }
 
 
+  }
 
-}
+
+
