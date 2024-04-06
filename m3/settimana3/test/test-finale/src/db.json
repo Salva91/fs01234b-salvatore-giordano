@@ -1,0 +1,125 @@
+{
+  "users":[],
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "actor": "Tim Robbins",
+      "year": 1994,
+      "cover": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "actor": "Marlon Brando",
+      "year": 1972,
+      "cover": "https://picsum.photos/id/238/200/300"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "actor": "Christian Bale",
+      "year": 2008,
+      "cover": "https://picsum.photos/id/239/200/300"
+    },
+    {
+      "id": 4,
+      "title": "Schindler's List",
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "actor": "Liam Neeson",
+      "year": 1993,
+      "cover": "https://picsum.photos/id/240/200/300"
+    },
+    {
+      "id": 5,
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "actor": "John Travolta",
+      "year": 1994,
+      "cover": "https://picsum.photos/id/241/200/300"
+    },
+    {
+      "id": 6,
+      "title": "The Lord of the Rings: The Return of the King",
+      "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "actor": "Elijah Wood",
+      "year": 2003,
+      "cover": "https://picsum.photos/id/242/200/300"
+    },
+    {
+      "id": 7,
+      "title": "Fight Club",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "actor": "Brad Pitt",
+      "year": 1999,
+      "cover": "https://picsum.photos/id/243/200/300"
+    },
+    {
+      "id": 8,
+      "title": "Forrest Gump",
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "actor": "Tom Hanks",
+      "year": 1994,
+      "cover": "https://picsum.photos/id/244/200/300"
+    },
+    {
+      "id": 9,
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "actor": "Leonardo DiCaprio",
+      "year": 2010,
+      "cover": "https://picsum.photos/id/245/200/300"
+    },
+    {
+      "id": 10,
+      "title": "The Matrix",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "actor": "Keanu Reeves",
+      "year": 1999,
+      "cover": "https://picsum.photos/id/246/200/300"
+    },
+    {
+      "id": 11,
+      "title": "The Silence of the Lambs",
+      "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+      "actor": "Anthony Hopkins",
+      "year": 1991,
+      "cover": "https://picsum.photos/id/247/200/300"
+    },
+    {
+      "id": 12,
+      "title": "Saving Private Ryan",
+      "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "actor": "Tom Hanks",
+      "year": 1998,
+      "cover": "https://picsum.photos/id/248/200/300"
+    },
+    {
+      "id": 13,
+      "title": "The Green Mile",
+      "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+      "actor": "Tom Hanks",
+      "year": 1999,
+      "cover": "https://picsum.photos/id/249/200/300"
+    },
+    {
+      "id": 14,
+      "title": "The Departed",
+      "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "actor": "Leonardo DiCaprio",
+      "year": 2006,
+      "cover": "https://picsum.photos/id/250/200/300"
+    },
+    {
+      "id": 15,
+      "title": "Gladiator",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "actor": "Russell Crowe",
+      "year": 2000,
+      "cover": "https://picsum.photos/id/251/200/300"
+    }
+  ]
+}
