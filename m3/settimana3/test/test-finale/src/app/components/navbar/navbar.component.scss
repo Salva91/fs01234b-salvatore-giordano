@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #2b2b2b;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #FF0000;
+}
+
+.navbar-nav .nav-link {
+  color: #FFFFFF !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FF0000 !important;
+}
+
+.dropdown-menu {
+  background-color: #2b2b2b;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #FFFFFF !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #FF0000;
+}
+
+.btn-danger {
+  background-color: #FF0000;
+  border-color: #FF0000;
+}
+
+.btn-danger:hover {
+  background-color: #CC0000;
+  border-color: #CC0000;
+}
+
+.btn-outline-danger {
+  color: #FF0000;
+  border-color: #FF0000;
+}
+
+.btn-outline-danger:hover {
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border-color: #FF0000;
+}
