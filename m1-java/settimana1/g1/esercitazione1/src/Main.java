@@ -1,12 +1,17 @@
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         int risultato = moltiplicazione(10, 5);
+        String[] arrayIniziale = arrayDiStringhe();
 
         System.out.println("Il risultato della moltiplicazione è: " + risultato);
         String risultatoConcatenazione = concatenazione("ciao", 10);
         System.out.println(risultatoConcatenazione);
+        String[] nuovoArray = inserisciStringa(arrayIniziale, "nuovaStringa", 3);
+        System.out.println("Nuovo array di stringhe: " + Arrays.toString(nuovoArray));
     }
 
     public static int moltiplicazione(int a, int b) {
@@ -17,9 +22,8 @@ public class Main {
     public static String concatenazione(String parola, int numero) {
         String risultatoConcatenazione = "La parola è " + parola + ", mentre il numero è: " + numero;
         return risultatoConcatenazione;
-        String[] arrayIniziale = arrayDiStringhe();
-        String[] nuovoArray = inserisciStringa(arrayIniziale, "nuovaStringa", 3);
-        System.out.println("Nuovo array di stringhe: " + Arrays.toString(nuovoArray));
+
+
     }
 
     public static String[] arrayDiStringhe(){
