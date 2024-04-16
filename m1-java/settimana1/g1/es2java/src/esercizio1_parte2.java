@@ -15,7 +15,7 @@ public class esercizio1_parte2 {
         }
 
         public static void main(String[] args) {
-            // Esempi di utilizzo:
+            
             System.out.println(Bisestile(2020));
             System.out.println(Bisestile(1900));
             System.out.println(Bisestile(2000));
