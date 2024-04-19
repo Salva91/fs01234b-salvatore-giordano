@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class RegolabileLuminosita {
+interface RegolabileLuminosita {
+    void aumentaLuminosita();
+    void diminuisciLuminosita();
 }
