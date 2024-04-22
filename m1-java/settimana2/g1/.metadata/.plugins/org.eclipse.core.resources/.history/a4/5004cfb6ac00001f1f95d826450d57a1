@@ -1,0 +1,31 @@
+package it.epicode;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int dimensioneDesiderata = 5;
+        List<Integer> numeri = new ArrayList<>(dimensioneDesiderata);
+        
+        
+        
+        for (int i = 0; i < dimensioneDesiderata; i++) {
+            numeri.add(numeroCasuale());
+        }
+
+        
+        System.out.println("Numeri generati casualmente:");
+        for (Integer numero : numeri) {
+            System.out.println(numero);
+        }
+    }
+
+    public static int numeroCasuale() {
+        return new Random().nextInt(10) + 1; 
+    }
+}
