@@ -1,0 +1,19 @@
+package it.epicode.esercizio1;
+
+import java.util.Scanner;
+
+public class Esercizio1 {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("inserisci il numero di elementi ");
+
+	int n = sc.nextInt();
+	
+	for (int i = 0; i<n; i++) {
+		
+		
+
+}
+	}
+}
