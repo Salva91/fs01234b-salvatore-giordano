@@ -1,0 +1,41 @@
+package it.epicode;
+
+import classi.Order;
+import classi.Product;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Product product = new Product(1,"Guerra e Pace", "book",200.50);
+		Product product2 = new Product(2,"Fratelli Balsamo", "book",150.20);
+		Product product3 = new Product(3,"Cappuccetto Rosso", "book",50.10);
+		Product product4 = new Product(4,"lat den ràtta komma in", "book",400.20);
+		Product product5 = new Product(5,"maglia nike", "baby",10.50);
+		Product product6 = new Product(6,"scarpe nike", "baby",500.40);
+		Product product7 = new Product(7,"biberon nike", "baby",10.20);
+		Product product8 = new Product(8,"Jeans boh", "boys",300.40);
+		Product product9 = new Product(9,"felpa pmun", "boys",150.40);
+		Product product10 = new Product(10,"guanti armani", "boys",700.40);
+		
+		Order order = new Order(0, null, null, null, null);
+		order.aggiungiProdotto(1,"Guerra e Pace", "book",200.50);
+		order.aggiungiProdotto(2,"Fratelli Balsamo", "book",150.20);
+		order.aggiungiProdotto(3,"Cappuccetto Rosso", "book",50.10);
+		order.aggiungiProdotto(4,"lat den ràtta komma in", "book",400.20);
+		order.aggiungiProdotto(5,"maglia nike", "baby",10.50);
+		order.aggiungiProdotto(6,"scarpe nike", "baby",500.40);
+		order.aggiungiProdotto(7,"biberon nike", "baby",10.20);
+		order.aggiungiProdotto(8,"Jeans boh", "boys",300.40);
+		order.aggiungiProdotto(9,"felpa pmun", "boys",150.40);
+		order.aggiungiProdotto(10,"guanti armani", "boys",700.40);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

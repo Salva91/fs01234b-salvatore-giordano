@@ -21,7 +21,7 @@ public class Esercizio1 {
             String parola = scanner.nextLine();
 
             if (!paroleSet.add(parola)) {
-                // Se la parola è già presente nel set, è duplicata
+                // Se la parola è già presente nel set, è duplicata va a finire qui dentro
                 paroleDuplicate.add(parola);
             }
         }

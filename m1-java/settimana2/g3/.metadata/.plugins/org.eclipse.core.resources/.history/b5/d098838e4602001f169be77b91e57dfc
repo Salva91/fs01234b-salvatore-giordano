@@ -1,0 +1,47 @@
+package it.epicode;
+
+import classi.Order;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		Order order = new Order(0, null, null, null, null);
+		order.aggiungiProdotto(1,"Guerra e Pace", "book",200.50);
+		order.aggiungiProdotto(2,"Fratelli Balsamo", "book",150.20);
+		order.aggiungiProdotto(3,"Cappuccetto Rosso", "book",50.10);
+		order.aggiungiProdotto(4,"lat den ràtta komma in", "book",400.20);
+		order.aggiungiProdotto(5,"maglia nike", "baby",10.50);
+		order.aggiungiProdotto(6,"scarpe nike", "baby",500.40);
+		order.aggiungiProdotto(7,"biberon nike", "baby",10.20);
+		order.aggiungiProdotto(8,"Jeans boh", "boys",300.40);
+		order.aggiungiProdotto(9,"felpa pmun", "boys",150.40);
+		order.aggiungiProdotto(10,"guanti armani", "boys",700.40);
+		
+		
+		System.out.println("lista di libri con prezzo maggiore a 100 euri");
+		order.products.stream()
+        .filter(p -> p.getCategory().equals("book") && p.getPrice() > 100)
+        .forEach(System.out::println);
+		
+		System.out.println("lista di prodotti per bambini ");
+		
+		order.products.stream()
+        .filter(p -> p.getCategory().equals("baby"))
+        .forEach(System.out::println);
+		
+		
+
+
+	
+		
+		
+		
+		
+		
+
+	}
+
+}
