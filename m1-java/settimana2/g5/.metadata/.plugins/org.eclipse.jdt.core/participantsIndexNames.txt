@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+/Users/salvatoregiordano/Documents/Salvatore-Giordano-epicode/m1-java/settimana2/g5/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3250634029.index
+/epicode/src/main/java

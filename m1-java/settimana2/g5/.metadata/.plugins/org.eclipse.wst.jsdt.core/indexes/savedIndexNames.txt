@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+/Users/salvatoregiordano/Documents/Salvatore-Giordano-epicode/m1-java/settimana2/g5/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1437285288.index

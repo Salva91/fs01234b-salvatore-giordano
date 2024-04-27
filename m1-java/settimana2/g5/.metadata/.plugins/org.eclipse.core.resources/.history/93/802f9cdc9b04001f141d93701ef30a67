@@ -1,0 +1,8 @@
+package biblioteca;
+
+public enum Frequenza {
+
+    SETTIMANALE,
+    MENSILE,
+    SEMESTRALE
+}

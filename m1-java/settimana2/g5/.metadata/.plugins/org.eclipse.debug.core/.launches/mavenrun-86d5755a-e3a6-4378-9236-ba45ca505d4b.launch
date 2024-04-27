@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+    <booleanAttribute key="M2_BATCH" value="false"/>
+    <stringAttribute key="M2_GOALS" value="-U archetype:generate"/>
+    <listAttribute key="M2_PROPERTIES">
+        <listEntry value="archetypeGroupId=am.ik.archetype"/>
+        <listEntry value="archetypeArtifactId=mvc-1.0-blank-archetype"/>
+        <listEntry value="archetypeVersion=1.0.0-m02"/>
+        <listEntry value="groupId=biblioteca"/>
+        <listEntry value="artifactId=epicode"/>
+        <listEntry value="version=0.0.1-SNAPSHOT"/>
+        <listEntry value="package=biblioteca.epicode"/>
+        <listEntry value="outputDirectory=/Users/salvatoregiordano/Documents/Salvatore-Giordano-epicode/m1-java/settimana2/g5"/>
+    </listAttribute>
+    <booleanAttribute key="M2_SAVE_BEFORE_LAUNCH" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="/var/folders/44/6k48qkm54cz3s4cb07t89f0r0000gn/T/m2e-archetypeGenerator18391248750446281118"/>
+</launchConfiguration>
