@@ -43,12 +43,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="esgiornoquattro"/>
 			<item value="esergizioprogettotre"/>
 			<item value="eserciziog3"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="es4"/>
 			<item value="eserciziogiornotre"/>
 			<item value="eserciziog3"/>
 		</list>
@@ -63,5 +65,9 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
