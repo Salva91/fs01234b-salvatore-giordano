@@ -1,0 +1,6 @@
+package enums;
+
+public enum StatoDispositivo {
+	DISPOSITIVO, ASSEGNATO, IN_MANUTENZIONE,DISMESSO
+
+}

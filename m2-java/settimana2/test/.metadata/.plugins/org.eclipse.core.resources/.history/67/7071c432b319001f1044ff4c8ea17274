@@ -1,0 +1,16 @@
+package entities;
+
+import lombok.AllArgsConstructor;
+
+@Entity
+@Data
+@Table (name = "dipendenti")
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class Dipendente {
+	
+
+
+
+}
