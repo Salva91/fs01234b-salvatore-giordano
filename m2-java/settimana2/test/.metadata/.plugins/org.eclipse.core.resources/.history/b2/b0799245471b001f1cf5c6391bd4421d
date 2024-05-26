@@ -1,0 +1,5 @@
+package it.epicode.gestioneDispositivi.repositories;
+
+public class GestioneDispositiviApplication {
+
+}

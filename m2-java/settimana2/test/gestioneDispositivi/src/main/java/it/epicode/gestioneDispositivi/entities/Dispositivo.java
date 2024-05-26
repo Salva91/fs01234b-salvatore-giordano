@@ -36,6 +36,26 @@ public class Dispositivo {
 		
 		
 	}
+	public StatoDispositivo getStato() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Object getTipologia() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public void setTipologia(Object tipologia2) {
+		// TODO Auto-generated method stub
+		
+	}
+	public Object getDipendente() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public void setDipendente(Object dipendente2) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	

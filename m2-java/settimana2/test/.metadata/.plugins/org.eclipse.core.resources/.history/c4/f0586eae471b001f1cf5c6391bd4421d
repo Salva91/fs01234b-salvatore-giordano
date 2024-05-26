@@ -1,0 +1,40 @@
+package it.epicode.gestioneDispositivi.services;
+
+import java.awt.print.Pageable;
+
+import org.hibernate.query.Page;
+import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Sort;
+import org.springframework.data.domain.PageRequest;
+
+import it.epicode.gestioneDispositivi.entities.Dipendente;
+
+public class DipendenteService {
+
+    public Dipendente save(Dipendente dipendente){
+        return dipendenteRepository.save(dipendente);
+    }
+
+    public Page<Dipendente> getDipendenti(int page, int size, String sort) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sort));
+        return dipendenteRepository.findAll(pageable);
+    }
+
+    public Dipendente findById(Long id){
+        return dipendenteRepository.findById(id).orElseThrow(() -> new NotFoundException(id));
+    }
+
+    public void findByIdAndDelete(Long id){
+        Dipendente found = this.findById(id);
+        dipendenteRepository.delete(found);
+    }
+
+    public Dipendente findByIdAndUpdate(Long id, Dipendente body){
+        Dipendente found = this.findById(id);
+        found.setEmail(body.getEmail());
+        found.setNome(body.getNome());
+        found.setCognome(body.getCognome());
+        found.setUserName(body.getUserName());
+        return dipendenteRepository.save(found);
+    }
+
+}

@@ -91,3 +91,19 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY ch.qos.logback.classic 1 0 2024-05-24 14:00:21.144
 !MESSAGE Logback config file: /Users/salvatoregiordano/Documents/Salvatore-Giordano-epicode/m2-java/settimana2/test/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-05-26 11:49:17.622 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/salvatoregiordano/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/salvatoregiordano/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-26 11:49:20.560
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-26 11:49:21.023
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-26 11:49:52.074
+!MESSAGE Logback config file: /Users/salvatoregiordano/Documents/Salvatore-Giordano-epicode/m2-java/settimana2/test/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml

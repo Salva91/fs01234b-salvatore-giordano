@@ -49,5 +49,41 @@ public class Dipendente {
     private String email;
 @OneToMany(mappedBy = "dipendente")
 private List<Dispositivo> dispositivi;
+public Object getEmail() {
+	// TODO Auto-generated method stub
+	return null;
+}
+public void setEmail(Object email2) {
+	// TODO Auto-generated method stub
+	
+}
+public Object getNome() {
+	// TODO Auto-generated method stub
+	return null;
+}
+public void setNome(Object nome2) {
+	// TODO Auto-generated method stub
+	
+}
+public Object getCognome() {
+	// TODO Auto-generated method stub
+	return null;
+}
+public void setCognome(Object cognome2) {
+	// TODO Auto-generated method stub
+	
+}
+public Object getUserName() {
+	// TODO Auto-generated method stub
+	return null;
+}
+public void setUserName(Object userName2) {
+	// TODO Auto-generated method stub
+	
+}
+public void setPathImmagine(String imagePath) {
+	// TODO Auto-generated method stub
+	
+}
 
 }

@@ -3,8 +3,8 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="219"/>
-		<item key="DIALOG_Y_ORIGIN" value="104"/>
+		<item key="DIALOG_X_ORIGIN" value="390"/>
+		<item key="DIALOG_Y_ORIGIN" value="99"/>
 		<item key="DIALOG_WIDTH" value="586"/>
 		<item key="DIALOG_HEIGHT" value="500"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
@@ -13,8 +13,8 @@
 		<item key="create_package_info_java" value="false"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="17"/>
-		<item key="DIALOG_Y_ORIGIN" value="52"/>
+		<item key="DIALOG_X_ORIGIN" value="397"/>
+		<item key="DIALOG_Y_ORIGIN" value="17"/>
 		<item key="DIALOG_WIDTH" value="586"/>
 		<item key="DIALOG_HEIGHT" value="650"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
@@ -66,5 +66,15 @@
 		<item key="DIALOG_WIDTH" value="549"/>
 		<item key="DIALOG_HEIGHT" value="619"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="renameSubpackages" value="false"/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
 	</section>
 </section>
